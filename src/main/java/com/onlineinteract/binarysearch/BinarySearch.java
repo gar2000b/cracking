@@ -1,5 +1,12 @@
 package com.onlineinteract.binarysearch;
 
+/**
+ * 
+ * BinarySearch - O(log N)
+ * 
+ * @author gar20
+ *
+ */
 public class BinarySearch {
 	public static void main(String[] args) {
 		int[] array = { 1, 5, 8, 9, 11, 13, 15, 19, 21, 23 };
