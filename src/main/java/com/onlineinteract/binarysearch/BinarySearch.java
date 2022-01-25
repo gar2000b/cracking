@@ -2,7 +2,7 @@ package com.onlineinteract.binarysearch;
 
 /**
  * 
- * BinarySearch - O(log N)
+ * BinarySearch - O(log N) = log time
  * 
  * @author gar20
  *
@@ -15,7 +15,7 @@ public class BinarySearch {
 		new BinarySearch().search(array, search, 0, array.length);
 	}
 
-	protected int search(int[] array, Integer search, Integer lower, Integer upper) {
+	protected Integer search(int[] array, Integer search, Integer lower, Integer upper) {
 		if (search == null || lower == null || upper == null || array == null)
 			throw new NullPointerException("Please ensure array, search, lower and upper params are specified");
 
